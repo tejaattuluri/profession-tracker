@@ -1,0 +1,86 @@
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
+  height: 20vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-container {
+  /* overflow: hidden;
+  background-color: #323953;
+  padding: 1%;
+  color: #d3c9c8; */
+  height: auto;
+  border: 0px solid rgb(100, 80, 80);
+  display: flex;
+  background-color: #cabeac;
+  border: 0px solid black;
+  width: 70%;
+  bottom: 30%; 
+   position: absolute;
+  left: 0%; 
+  padding: 10px;
+}
+
+.App-container-left{
+  /* position: absolute;
+  left:55%;
+  width:30%;
+  bottom: 85%; */
+  /* font-size: 250%; */
+  /* color: rgb(209, 201, 194); */
+  border: 0px solid black;
+  width: 60%;
+}
+
+.App-container-right{
+  /* bottom: 50%;
+  width: 30%;
+  position: absolute;
+  left:60%; */
+  background-color: #f5ecdf;
+  border: 0px solid black;
+  width: 30%;
+  bottom: 30%; 
+   position: absolute;
+  left: 60%; 
+  padding: 10px;
+  /* text-align: center; */
+  /* color: white; */
+  /* font-size: 30px; */
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#323953 ;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    height: 2em;
+    line-height: 2em;
+}
+.teja{
+  padding:10px;
+}

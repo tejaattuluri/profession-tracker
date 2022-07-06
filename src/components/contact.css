@@ -1,0 +1,29 @@
+
+input[type=password], input[type=text] {
+    width: 90%;
+    padding: 2.5%;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 249, 249);
+    margin: 4px 2px;
+  }
+  
+  input[type=submit] {
+    width: 95%;
+    height: 2em;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1%;
+    background-color: #7882A4;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+  }
+  
+  input[type=submit]:hover{
+    color: #7882A4;
+    background-color: whitesmoke;
+    border: 1px solid #7882A4;
+    cursor: pointer;
+  }
