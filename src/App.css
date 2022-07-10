@@ -1,21 +1,6 @@
-/* .App {
-  text-align: center;
-} */
-
-/* .App-logo {
-  height: 20vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   background-color: #282c34;
-  min-height: 5vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,62 +10,54 @@
 }
 
 .App-container {
-  /* overflow: hidden;
-  background-color: #323953;
-  padding: 1%;
-  color: #d3c9c8; */
-  height: auto;
-  border: 0px solid rgb(100, 80, 80);
   display: flex;
-  background-color: #cabeac;
+  padding: 10px;
   border: 0px solid black;
+}
+
+.App-container-left {
   width: 70%;
-  bottom: 30%; 
-   position: absolute;
-  left: 0%; 
-  padding: 10px;
-}
-
-.App-container-left{
-  /* position: absolute;
-  left:55%;
-  width:30%;
-  bottom: 85%; */
-  /* font-size: 250%; */
-  /* color: rgb(209, 201, 194); */
   border: 0px solid black;
-  width: 60%;
 }
 
-.App-container-right{
-  /* bottom: 50%;
+.App-container-right {
   width: 30%;
+  padding: 10px;
+  border: 0px solid black;
+  bottom: 25%;
   position: absolute;
-  left:60%; */
-  background-color: #f5ecdf;
-  border: 0px solid black;
-  width: 30%;
-  bottom: 30%; 
-   position: absolute;
-  left: 60%; 
-  padding: 10px;
-  /* text-align: center; */
-  /* color: white; */
-  /* font-size: 30px; */
+  left:55%;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#323953 ;
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    height: 2em;
-    line-height: 2em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #323953;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  height: 3em;
+  line-height: 3em;
 }
-.teja{
-  padding:10px;
+
+.teja {
+  padding: 10px;
+}
+
+.Contact-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.App-container-Final{
+
+  width: 90%;
+  bottom: 18%;
+  left: 5%;
+  position: absolute;
 }
