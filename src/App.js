@@ -3,18 +3,22 @@ import React, { Component } from "react";
 import Form from './components/Form';
 import Contact from "./components/Contact";
 import Final from "./components/Final";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div className="App-header">Contact form</div>
+        <div className="App-header">
+          Profession Tracker
+          <Navbar/>
+          </div>
          <div class="App-container">
             <div className="App-container-left"></div>
             <div className="App-container-right">
-             <Form/>
+             {/*<Form/>*/}
             </div>
-            <div className="App-container-Final">{/*<Final/>*/}</div>
+            <div className="App-container-Final"><Final/></div>
         </div> 
 
         <div class="Contact-container">
