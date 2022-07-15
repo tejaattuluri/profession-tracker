@@ -1,7 +1,7 @@
 
 input[type=password], input[type=text] {
-    width: 90%;
-    padding: 2.5%;
+    width: 30%;
+    padding: 1%;
     font-size: 24px;
     border: none;
     border-radius: 10px;
@@ -10,7 +10,7 @@ input[type=password], input[type=text] {
   }
   
   input[type=submit] {
-    width: 95%;
+    width: 32%;
     height: 2em;
     border-radius: 10px;
     border: none;
@@ -26,4 +26,13 @@ input[type=password], input[type=text] {
     background-color: whitesmoke;
     border: 1px solid #7882A4;
     cursor: pointer;
+  } 
+
+  .contact{
+    text-align: center;
+    height: 50%;
+    position: absolute;
+    width: 90%;
+    bottom: 28%;
+    right:5%;
   }

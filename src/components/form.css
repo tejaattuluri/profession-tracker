@@ -12,9 +12,8 @@ input[type=password], input[type=text] {
   border-radius: 10px;
   background-color: rgb(255, 249, 249);
   margin: 4px 2px;
-}
-
-input[type=submit] {
+} 
+ input[type=submit] {
   width: 95%;
   height: 2em;
   border-radius: 10px;
@@ -31,7 +30,7 @@ input[type=submit]:hover{
   background-color: whitesmoke;
   border: 1px solid #7882A4;
   cursor: pointer;
-}
+} 
 
 
 select {
@@ -44,7 +43,7 @@ select {
   background-color: rgb(255, 255, 255);
   color: rgb(10, 10, 10);
   font-family: Arial, Helvetica, sans-serif;
-  /* position: absolute; */
+  position: absolute; 
   right: 90px;
 }
 
@@ -55,4 +54,9 @@ select {
   padding: 18px;
   text-align: center;
   box-shadow: 0 8px 6px -6px black;
+}
+.form{
+  text-align: right;
+  margin: 5%;
+  height: 100%;
 }

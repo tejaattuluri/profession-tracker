@@ -5,7 +5,7 @@ import './Final.css';
 class Final extends Component {
     render() {
         return ( 
-            <div>
+            <div className='final'>
 
 
 

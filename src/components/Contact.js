@@ -4,7 +4,7 @@ import './contact.css';
 class Contact extends Component {
     render() {
         return (        
-            <div>
+            <div className='contact'>
                 {/* This is a form */}
                 <form action="">
                     <div><input type="text" name="" id="" placeholder="First name"/></div>
