@@ -23,7 +23,7 @@ a:active { text-decoration: none; }
 
 .navbar {
   padding: 0.5%;
-  font-size: 28px;
+  font-size: 24px;
   background-color: rgb(22, 21, 56);
   display: flex;
 }
@@ -40,6 +40,6 @@ ul {
 
 .brand {
   color: #ddd;
-  font-size: 48px;
+  font-size: 40px;
   margin-top: 1%;
 }

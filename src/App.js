@@ -33,11 +33,11 @@ class App extends Component {
           <div style={{ border: "0px solid black", margin: "auto", width: "30%", bottom: "25%", position: "absolute", left: "35%" }}>{/*<Contact/>*/}</div>
         </div>
         <div class="footer">Developed by Teja Attuluri. All copy rights reserved.</div>
-        {/*<div class="teja">
+        <div class="teja">
           <p>Start Date:27 June 2022.</p>
           <p> Days Elapsed:8.</p>
           <p>Due Date:15 July 2022.</p>
-        </div> */}
+        </div> 
       </div>
     );
   }
