@@ -1,0 +1,10 @@
+git pull //To get updated code from remote repo.code
+
+How to push code to remote repo?
+git add <fileName> //To add all modified files to staging area.
+git commit -m <Your message in double quotes> //To commit changes
+git push //To upload all your modified changes to remote repo.
+
+How to discard modified changes (Not added to staging area)?
+git checkout -- <fileName with path> 
+Example: git checkout -- src/components/navbar.css
