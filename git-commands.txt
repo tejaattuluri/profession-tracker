@@ -2,6 +2,7 @@ git pull //To get updated code from remote repo.code
 
 How to push code to remote repo?
 git add <fileName> //To add all modified files to staging area.
+(or you can try "git add ." where dot indicates all modified files)
 git commit -m <Your message in double quotes> //To commit changes
 git push //To upload all your modified changes to remote repo.
 
