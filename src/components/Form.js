@@ -5,7 +5,6 @@ class Form extends Component {
     render() {
         return (        
             <div className='form'>
-                {/* This is a form */}
                 <form action="">
                     <div><input type="text" name="" id="" placeholder="username"/></div>
                     <div><input type="text" name="" id="" placeholder="password"/></div>

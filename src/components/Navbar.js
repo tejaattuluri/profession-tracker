@@ -5,16 +5,18 @@ import "./navbar.css";
 const Navbar = () => {
     return (
         <div class="navbar">
-            <span class="brand">Profession tracker</span>
-            <ul>
-                <Link to="/"><li>Login</li></Link>
-                <Link to="/contact"><li>Add contact</li></Link>
-                <Link to="/final"><li>Contacts</li></Link>
-            </ul>        
+            <div class="brand">Profession tracker</div>
+            <div class="menu-items">
+                <ul>
+                    <Link to="/contact"><li>Add contact</li></Link>
+                    <Link to="/final"><li>Contacts</li></Link>
+                    <Link to="/dates"><li>Dates</li></Link>
+                </ul>
+            </div>
+            <div class="login-btn"><Link to="/"><li>Login</li></Link></div>
         </div>
-        
-    ) 
-    
+    )
+
 }
 
 export default Navbar;
