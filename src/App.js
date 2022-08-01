@@ -23,7 +23,7 @@ class App extends Component {
             <Route path="/dates" element={<Date/>} />
           </Routes>
         </BrowserRouter>
-        <div class="footer">Developed by Teja Attuluri. All copy rights reserved.</div>
+        <div className="footer">Developed by Teja Attuluri. All copy rights reserved.</div>
       </div>
     );
   }

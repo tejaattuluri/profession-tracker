@@ -1,4 +1,4 @@
-table {
+/*table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 90%;
@@ -24,4 +24,17 @@ table {
     bottom: 28%;
     
 
+  }*/
+  /* div{
+    height: 50%;
+    bottom: 28%;
+  } */
+
+  .table-border{
+    border: 0px solid red;
+    height: 500px;
+    overflow-y: auto;
+    font-size: 0.8em;
+    width: 65%;
+    margin: auto;
   }

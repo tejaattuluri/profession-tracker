@@ -5,7 +5,7 @@ class Date extends Component {
     render() {
         return (
             <div>
-                <div class="dates">
+                <div className="dates">
                     <h1>Start Date  :27 June 2022</h1>
                     <h1>Days Elapsed:25</h1>
                     <h1>Due Date    :15 July 2022</h1>
