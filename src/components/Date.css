@@ -1,0 +1,13 @@
+.dates {
+    height: 250px;
+    margin: auto;
+    background-color: #1B2430;
+    color: gainsboro;
+    margin-top: 5%;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
